@@ -1,0 +1,551 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6081d7d9-b703-42b4-b9c9-9bd53cc84c0a")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 132.08 49.53) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010aff0b-1a43-43e4-8968-dd9d7229c0f0")
+	)
+	(wire
+		(pts
+			(xy 132.08 46.99) (xy 151.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333bcc62-53a4-46f2-b1d2-72ea9db21fd4")
+	)
+	(wire
+		(pts
+			(xy 118.11 78.74) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e38d61-b173-4486-a4fd-69eaaf6b4c3b")
+	)
+	(wire
+		(pts
+			(xy 132.08 52.07) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da7f8c1-8a04-477f-b0d9-f94a55131662")
+	)
+	(wire
+		(pts
+			(xy 132.08 74.93) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40098bd3-0c2f-45e8-9ac2-2b1c679506ac")
+	)
+	(wire
+		(pts
+			(xy 132.08 67.31) (xy 151.13 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ec12dc-f433-4edc-bd99-cbb51bc0efe9")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 104.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a0eed6-813c-471d-9f1e-8388257081c4")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 104.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d2f458-d569-428a-84c1-29a7a95de20b")
+	)
+	(wire
+		(pts
+			(xy 132.08 62.23) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "955f9feb-ea73-4bb7-98ef-5c7016f43c9d")
+	)
+	(wire
+		(pts
+			(xy 132.08 69.85) (xy 151.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8f3751-ed77-41a1-8d64-d9dc98349200")
+	)
+	(wire
+		(pts
+			(xy 132.08 72.39) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2097e95-6751-45d6-a382-09cc1a4de735")
+	)
+	(wire
+		(pts
+			(xy 87.63 69.85) (xy 104.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec31fbcb-d7a8-4b0f-8c6a-6f6cb696d4dc")
+	)
+	(wire
+		(pts
+			(xy 132.08 54.61) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5adbed8-c010-4b50-9d7f-158e623cca54")
+	)
+	(sheet
+		(at 151.13 39.37)
+		(size 33.02 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89d0495d-1bd4-4f55-bb26-9bdf3f9d5bc6")
+		(property "Sheetname" "MATRIX"
+			(at 151.13 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MATRIX.kicad_sch"
+			(at 151.13 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO10" input
+			(at 151.13 49.53 180)
+			(uuid "c4d3aa2a-7f54-43b3-85c8-4c716d3800f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S3" input
+			(at 151.13 74.93 180)
+			(uuid "6ac19381-0b57-4e9c-b232-0dbf6abf7b9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO11" input
+			(at 151.13 46.99 180)
+			(uuid "2ebe88b0-0922-42d7-9b39-e9c88e3122ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO8" input
+			(at 151.13 54.61 180)
+			(uuid "1f9dd860-2a32-4548-babc-dd96bee2c40e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S2" input
+			(at 151.13 72.39 180)
+			(uuid "0f180b2c-75df-45aa-8f84-8c91c58f27af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S0" input
+			(at 151.13 67.31 180)
+			(uuid "1ec848d2-8d14-487e-b979-44643631e03c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S1" input
+			(at 151.13 69.85 180)
+			(uuid "1bcb9fce-78dd-4c5e-97c9-e5b1062edee9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO9" input
+			(at 151.13 52.07 180)
+			(uuid "d8ddea1d-3ce1-46ba-aee7-a47a4322e6b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "final version"
+				(path "/6081d7d9-b703-42b4-b9c9-9bd53cc84c0a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 40.64)
+		(size 29.21 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6caef39-e2f2-4fa6-aa8a-281782f34fa4")
+		(property "Sheetname" "DAC"
+			(at 58.42 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 58.42 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO19" input
+			(at 87.63 69.85 0)
+			(uuid "9f5d725d-63bc-4974-a473-e97963075f38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO21" input
+			(at 87.63 72.39 0)
+			(uuid "5e5972aa-18d8-4f51-9e3e-b6ccb4006d75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO18" input
+			(at 87.63 67.31 0)
+			(uuid "ab381d29-669e-4f65-8b5e-1564f5d67ca9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "final version"
+				(path "/6081d7d9-b703-42b4-b9c9-9bd53cc84c0a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 88.9)
+		(size 27.94 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d018c4fa-b530-4988-b249-c966a1d662f6")
+		(property "Sheetname" "LED_Matrix"
+			(at 104.14 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_Matrix.kicad_sch"
+			(at 104.14 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO1" input
+			(at 118.11 88.9 90)
+			(uuid "9cab184e-f060-45e3-9f09-e079aefa2f77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "final version"
+				(path "/6081d7d9-b703-42b4-b9c9-9bd53cc84c0a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 40.64)
+		(size 27.94 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e66780dd-1e23-40cb-96a6-9e7c81ec8312")
+		(property "Sheetname" "Rasp Pi"
+			(at 104.14 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM5.kicad_sch"
+			(at 104.14 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO19" output
+			(at 104.14 69.85 180)
+			(uuid "0522a743-03e6-4df6-877c-0df30d0282d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO18" output
+			(at 104.14 67.31 180)
+			(uuid "8d74f637-8e24-4b02-99ff-ed8836d6d4c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO21" output
+			(at 104.14 72.39 180)
+			(uuid "97763282-e4ad-4a9b-bca6-0af9fab43702")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO10" output
+			(at 132.08 49.53 0)
+			(uuid "65d12cad-3c5f-4b3f-a9ad-1242b15df5a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO17" output
+			(at 132.08 67.31 0)
+			(uuid "66295842-babd-4a82-83b8-ed9fd3232646")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO11" output
+			(at 132.08 46.99 0)
+			(uuid "fa82b4cf-b4ea-47e5-84f0-559ae6f377c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO23" output
+			(at 132.08 72.39 0)
+			(uuid "d2277edb-509e-4131-b950-3a78ab1c736a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO9" output
+			(at 132.08 52.07 0)
+			(uuid "7984408c-e59a-4488-b0a8-57df95992cca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO27" output
+			(at 132.08 69.85 0)
+			(uuid "5ad10fe9-f588-46a6-878e-608c63e1944d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO8" output
+			(at 132.08 54.61 0)
+			(uuid "893db51e-dd63-4f22-b617-a6cb9d9536da")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO22" output
+			(at 132.08 74.93 0)
+			(uuid "20236a9d-5f7f-4175-9379-98659af2267f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO1" output
+			(at 118.11 78.74 270)
+			(uuid "f194e1a1-5859-4fe6-853c-1e0bc85e692b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "final version"
+				(path "/6081d7d9-b703-42b4-b9c9-9bd53cc84c0a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
